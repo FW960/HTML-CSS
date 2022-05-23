@@ -6,49 +6,50 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>FishLangWiki</title>
+        <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color: grey; font-family: monospace;">
-        <hr id="headerLine" style="width: auto; border-color: black;">
-        <p style="font-size: x-large;"><a href="index.html">Menu</Menu></a> <a href="contacts.html">Contacts</a></p>
-        <hr id="headerLine" style="width: auto; border-color: black;">
+<body>
+        <hr>
+        <p><a class="menuNavig" href="index.html">Menu</Menu></a><span class="space"></span><a class="menuNavig" href="contacts.html">Contacts</a>
+        </p>
+        <hr>
 </body>
 
-<body style="background-color: grey; font-family: monospace;">
-        <h2>Contact Us</h2>
+<body>
+        <h2 class="contWelcText">Contact Us</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, natus!</p>
         <img src="Pictures/lorem-ipsum.png" alt="NoImageForYou">
-        <h4>Adress</h4>
+        <h4 class="hInfo">Adress</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-        <h4>Phone</h4>
+        <h4 class="hInfo">Phone</h4>
         <ol>
                 <li>+123456781</li>
                 <li>+123456782</li>
         </ol>
-        <h4>Online Service</h4>
+        <h4 class="hInfo">Online Service</h4>
         <ul>
                 <li>lorem1@mail.ru</li>
                 <li>lorem12@mail.com</li>
         </ul>
         <p>Lorem st.&nbsp;32&nbsp; &rAarr; +123456783</p>
-        <h4>Send&nbsp;us message</h4>
-        <form action="">
-                Full Name: <input style="background-color: grey; border-color: black;" type="text"><br> <br>
-                Email: <input style="background-color: grey; border-color: black;" type="email"><br> <br>
-                Message: <br> <textarea placeholder="Lorem ipsum dolor sit amet."
-                        style="resize: none; background-color: grey; border-color: black;" cols="30"
-                        rows="5"></textarea> <br>
-                <button style="background-color: grey;" type="submit">Sumbit</button>
+        <h4 class="hInfo">Send&nbsp;us message</h4>
+        <form action="#">
+                <label> Full Name: <input class="inputToContact" type="text"></label><br> <br>
+                <label>Email: <input class="inputToContact" type="email"></label><br> <br>
+                <label for="contServ">Message:</label> <br> <textarea class="inputToContact"
+                        placeholder="Lorem ipsum dolor sit amet." cols="30" rows="5"></textarea> <br>
+                <button type="sendToService">Sumbit</button>
         </form> <br>
         <script type="text/javascript" charset="utf-8" async
                 src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A62462d99f6218d5bda949e09ca4f3ec07626bb1b135af5983293ee1fcfba7ccf&amp;width=600&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
         <br>
-        <h3>Lorem.</h3>
+        <h3 class="hCont">Lorem.</h3>
         <p>Voluptates accusamus minima amet alias officia vero rerum aut quaerat reiciendis vel id&nbsp;nisi,
                 atque&nbsp;ab,
                 ex&nbsp;earum!</p>
 </body>
-<hr id="headerLine" style="width: auto; border-color: black;">
+<hr>
 
 <body>
         <ul>
@@ -58,9 +59,9 @@
         </ul>
 </body>
 
-<body style="background-color: grey; font-family: monospace;">
-        <hr id="headerLine" style="width: auto; border-color: black;">
-        <p style="font-size: large;">All rights reserved &copy;</p>
+<body>
+        <hr>
+        <p>All rights reserved &copy;</p>
 </body>
 
 </html>
