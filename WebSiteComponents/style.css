@@ -1,0 +1,164 @@
+* {
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68
+}
+
+.menuNavig a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #1F3F68;
+    display: inline;
+}
+.menuItems li{
+    list-style-type: none;
+    display: inline;
+}
+.menuItems :nth-child(+2){
+padding-left: 10px;
+}
+
+.indexPageIntro {
+    width: 50%;
+}
+
+.promotion {
+    width: 50%;
+}
+
+.contactInfo li {
+    display: inline;
+    padding-left: 16%;
+}
+
+
+.contactsInfo li {
+    list-style-type: upper-roman;
+}
+
+.indexPageIntro h1 {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.companyGoals {
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.indexPageMainInfo {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.companyAchievments {
+    width: 70%;
+    margin-left: 15%;
+    align-self: center;
+    text-align: center;
+}
+
+.contPageIntro {
+    font-weight: 500;
+    font-size: 34px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.ourIcon{
+    margin-left: 38%;
+    display: block;
+    width: 50%;
+}
+
+.inputToContact {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+}
+
+.space {
+    padding-left: 20px;
+}
+.companyGoal{
+    width: 50%;
+    margin-left: auto;
+}
+
+.contPageInfo {
+    margin-top: 1%;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.messageSend {
+    border: 1px solid #5A98D0;
+    border-radius: 15px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    text-align-last: center;
+    margin-left: 1%;
+}
+
+.messageForm {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.textAreaMessage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-color: #5A98D0;
+    border-left: 0px;
+    border-right: 0px;
+    align-self: center;
+    width: 97.5%;
+    resize: none;
+    text-align: center;
+}
+
+.textAreaMessage:focus {
+    border: 1px solid#5A98D0;
+    outline: none;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.sendMessToServ {
+    border-radius: 5px;
+    border: 1px solid #5A98D0;
+    text-align: center;
+    background-color: white;
+}
+
+.sendMessToServ:hover {
+    background-color: lightblue;
+}
+.companyOnMap{
+    margin-top: 1%;
+}
+
