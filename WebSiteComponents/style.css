@@ -1,5 +1,24 @@
 * {
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wholePage {
+    margin: 0 auto;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.indexPageIntroHeader {
+    width: 510px;
+}
+
+.indexPageIntroText {
+    width: 425px;
 }
 
 p {
@@ -14,12 +33,16 @@ p {
     color: #1F3F68;
     display: inline;
 }
-.menuItems li{
-    list-style-type: none;
-    display: inline;
+
+
+.menuItems{
+    display: flex;
+    justify-content: start;
+    list-style: none;
 }
-.menuItems :nth-child(+2){
-padding-left: 10px;
+.menuItems li:nth-child(n+2){
+    margin-left: 5%;
+
 }
 
 .indexPageIntro {
@@ -27,17 +50,23 @@ padding-left: 10px;
 }
 
 .promotion {
-    width: 50%;
+    width: 340px;
+    padding: 2% 0;
+    text-align: left;
 }
 
-.contactInfo li {
-    display: inline;
-    padding-left: 16%;
+.promotionHeader {
+    text-align: left;
 }
 
+.promotionText {
+    width: 495px;
+}
 
-.contactsInfo li {
-    list-style-type: upper-roman;
+.contactInfoList {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
 }
 
 .indexPageIntro h1 {
@@ -46,26 +75,25 @@ padding-left: 10px;
 }
 
 .companyGoals {
+    padding-top: 2%;
     display: flex;
     flex-flow: row;
-    text-align: center;
+    text-align: start;
     box-sizing: border-box;
-
+    padding-bottom: 2%;
+    justify-content: space-between;
 }
 
-.indexPageMainInfo {
-    width: 70%;
-    margin-left: 15%;
+.companyGoal {
+    width: 359px;
 }
 
 .companyAchievments {
-    width: 70%;
-    margin-left: 15%;
-    align-self: center;
     text-align: center;
 }
 
 .contPageIntro {
+    padding: 2% 0;
     font-weight: 500;
     font-size: 34px;
     text-align: center;
@@ -82,10 +110,9 @@ h4 {
     color: #1F3F68;
 }
 
-.ourIcon{
-    margin-left: 38%;
+.ourIcon {
+    text-align: center;
     display: block;
-    width: 50%;
 }
 
 .inputToContact {
@@ -97,22 +124,22 @@ h4 {
     outline: none;
 }
 
-.space {
-    padding-left: 20px;
-}
-.companyGoal{
-    width: 50%;
-    margin-left: auto;
-}
-
 .contPageInfo {
-    margin-top: 1%;
-    margin-left: 30%;
+    padding-top: 1%;
+    justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
+    align-items: flex-start;
+    padding-bottom: 1%;
+
 }
+
+.contactsInfo li {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
 
 .messageSend {
     border: 1px solid #5A98D0;
@@ -120,7 +147,7 @@ h4 {
     box-sizing: border-box;
     border-collapse: collapse;
     text-align-last: center;
-    margin-left: 1%;
+    margin: 1px;
 }
 
 .messageForm {
@@ -138,7 +165,6 @@ h4 {
     align-self: center;
     width: 97.5%;
     resize: none;
-    text-align: center;
 }
 
 .textAreaMessage:focus {
@@ -153,12 +179,9 @@ h4 {
     border: 1px solid #5A98D0;
     text-align: center;
     background-color: white;
+    margin-bottom: 10%;
 }
 
 .sendMessToServ:hover {
     background-color: lightblue;
 }
-.companyOnMap{
-    margin-top: 1%;
-}
-
