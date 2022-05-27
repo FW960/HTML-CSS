@@ -8,8 +8,19 @@
     margin: 0 auto;
 }
 
+.contactsPageContainer {
+    margin: 0 auto;
+    width: 480px;
+    width: 940px;
+}
+
 .container {
     width: 1140px;
+    margin: 0 auto;
+}
+
+.containerContPage {
+    width: 940px;
     margin: 0 auto;
 }
 
@@ -19,9 +30,14 @@ p {
     color: #1F3F68
 }
 
-.menuNavig {
+.menuNavigMainPage {
     padding-top: 34px;
     margin-bottom: 107px;
+}
+
+.menuNavigContPage {
+    padding-top: 34px;
+    margin-bottom: 54px;
 }
 
 
@@ -42,11 +58,12 @@ p {
 
 .indexPageIntroHeader {
     width: 504px;
-    margin-bottom: 32px;
     font-weight: 300;
     font-size: 64px;
     line-height: 74px;
     letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding-bottom: 32px;
 }
 
 .indexPageIntroText {
@@ -55,7 +72,9 @@ p {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
-    margin-bottom: 86px;
+    color: #1F3F68;
+    opacity: 0.6;
+    margin-bottom: 71px;
 }
 
 .indexPageIntroButtonBox {
@@ -76,7 +95,7 @@ p {
 }
 
 .indexPageIntroImageBox {
-    margin-left: 98px;
+    margin-left: 82px;
     align-self: flex-end;
     margin-bottom: 60px;
 }
@@ -85,8 +104,24 @@ p {
     margin-top: 64px;
 }
 
+.indexPageMainInfoHeader {
+    width: 1137px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
 .indexPageMainInfoPreview {
     margin-bottom: 64px;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
 }
 
 
@@ -112,13 +147,13 @@ p {
     background: #FFFFFF;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
-    width: 360px;
+    padding: 44px 32px;
+    box-sizing: border-box;
 }
 
 .companyGoalHeader {
-    margin-top: 51px;
-    margin-bottom: 14px;
-    margin-left: 34px;
+    width: 283px;
+    margin-bottom: 15px;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -127,50 +162,51 @@ p {
 }
 
 .companyGoalParagraphBox {
-    margin-bottom: 30px;
-    margin-left: 34px;
+    width: 294px;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
     color: #1F3F68;
     opacity: 0.6;
+    margin-bottom: 28px;
 }
 
 .goalPhoto1 {
-    margin-top: 44px;
-    margin-left: 70px;
+    margin-left: 38px;
+    margin-bottom: 51px;
 }
 
 .goalPhoto2 {
-    margin-top: 43px;
-    margin-left: 116px;
+    margin-left: 84px;
+    margin-bottom: 44px;
 }
 
 .goalPhoto3 {
-    margin-top: 48px;
-    margin-left: 94px;
+    padding-top: 4px;
+    margin-left: 62px;
+    margin-bottom: 48px;
 }
 
 .companyGoalLinkBox {
-    margin-top: 30px;
-    margin-bottom: 44px;
-    margin-left: 32px;
-
+    vertical-align: middle;
 }
 
 .companyGoalLink {
+    display: flex;
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.05em;
     color: #5A98D0;
     text-decoration: none;
     padding-right: 23px;
+    text-align: center;
 }
 
 .vectorArrow {
-    padding-left: 24px;
-}
+    display: block;
+    margin-left: 24px;
 
+}
 
 .companyAchievments {
     text-align: center;
@@ -198,8 +234,7 @@ p {
     color: #222222;
 }
 
-.blockOfPhotos {
-    position: relative;
+.blockOfPhotosAndAchievments {
     margin-bottom: 112px;
 }
 
@@ -208,6 +243,7 @@ p {
 }
 
 .smartHomePhotoBox {
+    position: relative;
     margin-bottom: 32px;
 }
 
@@ -248,10 +284,11 @@ p {
 .pageEnd {
     background: #316099;
     padding-top: 91px;
+    
 }
 
 .footerPromotionAndButtonBox {
-    display: flex;
+    position: relative;
 }
 
 .promotionHeader {
@@ -292,8 +329,9 @@ p {
 }
 
 .LestTalkButton {
-    margin-top: 74px;
-    margin-left: 407px;
+    position: absolute;
+    top: 74px;
+    right: 0px;
 }
 
 .contactInfo {
@@ -302,18 +340,23 @@ p {
 
 .contactInfoList {
     display: flex;
+}
+
+.contactInfoItem {
+    list-style-position: outside;
+    width: 316px;
+    text-align: left;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    padding-left: 19px;
+    margin-left: 19px;
+    margin-right: 74px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    justify-content: space-around;
-}
-.contactInfoItem{
-    width: 360px;
 }
 
-.license{
+.license {
     margin-top: 64px;
     padding-bottom: 64px;
 }
@@ -328,31 +371,114 @@ p {
 }
 
 .contPageIntro {
-    padding: 2% 0;
+    margin: 0 auto 57px;
+    width: 1366px;
+    height: 250px;
     font-weight: 500;
     font-size: 34px;
-    text-align: center;
+    background-image: url(Pictures/Mask\ Group5.svg);
 }
 
-h3 {
-    font-size: 36px;
+.contPageIntroHeader {
+    padding-top: 51px;
+    font-size: 44px;
+    line-height: 74px;
     text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
 }
 
-h4 {
+
+
+.contPageIntroText {
+    padding-top: 16px;
+    margin: 0 auto;
+    width: 780px;
+    display: block;
     font-size: 20px;
     line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contactsInfoImg {
+    margin-bottom: 56px;
+}
+
+.contactsInfoHeader {
+    padding-bottom: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    text-transform: uppercase;
+}
+
+.contactsInfoText {
+    padding-bottom: 40px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+    width: 299px;
+}
+
+.phoneNumberList li {
+    margin-bottom: 16px;
+}
+
+.phoneNumberList {
+    list-style: inside;
+}
+
+.phoneNumberItem {
+    text-align: center;
+    display: flex;
+}
+
+.phoneIcon {
+    padding-right: 19px;
+}
+
+.onlineService {
+    margin-top: 40px;
+}
+
+.onlineServicesList li {
+    margin-bottom: 16px;
+}
+
+.onlineServicesItem {
+    text-align: center;
+    display: flex;
+}
+
+.onlineServicesItem li {
+    margin-bottom: 16px;
+}
+
+.onlineServIcon {
+    padding-right: 19px;
+}
+
+.toContactLink {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
     color: #1F3F68;
 }
 
-.ourIcon {
-    text-align: center;
-    display: block;
-}
 
 .inputToContact {
     margin-top: 10px;
     margin-bottom: 10px;
+    opacity: 0.4;
     border: 1px solid #356EAD;
     box-sizing: border-box;
     border-radius: 10px;
@@ -360,67 +486,81 @@ h4 {
 }
 
 .contPageInfo {
-    padding-top: 1%;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
-    padding-bottom: 1%;
-
+    margin-bottom: 96px;
 }
 
 .contactsInfo li {
-    list-style-type: upper-roman;
+    list-style-type: none;
     list-style-position: inside;
 }
 
 
 .messageSend {
-    border: 1px solid #5A98D0;
-    border-radius: 15px;
-    box-sizing: border-box;
-    border-collapse: collapse;
-    text-align-last: center;
-    margin: 1px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+
 }
 
-.messageForm {
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+.messageSendHeader {
+    margin: 56px 0px 48px 56px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    text-transform: uppercase;
+}
+
+.inputTypeParam {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    padding-left: 56px;
+    padding-bottom: 8px;
+}
+
+.inputToContact {
+    width: 428px;
+    height: 72px;
+    margin: 0 56px 32px;
 }
 
 .textAreaMessage {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    border-color: #5A98D0;
-    border-left: 0px;
-    border-right: 0px;
-    align-self: center;
-    width: 97.5%;
+    margin: 8px 56px 0;
+    width: 428px;
+    height: 144px;
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    border-radius: 10px;
     resize: none;
-}
-
-.textAreaMessage:focus {
-    border: 1px solid#5A98D0;
-    outline: none;
-    border-left: 0px;
-    border-right: 0px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.2;
+    padding: 21px 36px;
+    box-sizing: border-box;
 }
 
 .sendMessToServ {
-    border-radius: 5px;
-    border: 1px solid #5A98D0;
-    text-align: center;
-    background-color: white;
-    margin-bottom: 10%;
-}
-
-.sendMessToServ:hover {
-    background-color: lightblue;
+    width: 428px;
+    height: 72px;
+    margin: 0 56px 56px;
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    border: 0px;
 }
 
 .companyOnMap {
-    flex-grow: 1;
+    margin-bottom: 112px;
 }
