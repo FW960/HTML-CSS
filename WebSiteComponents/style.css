@@ -15,7 +15,7 @@
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -32,7 +32,7 @@ p {
 
 .menuNavigMainPage {
     padding-top: 34px;
-    margin-bottom: 107px;
+    margin-bottom: 112px;
 }
 
 .menuNavigContPage {
@@ -49,11 +49,13 @@ p {
 
 .indexPageStart {
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
-    padding-bottom: 64px;
 }
 
 .indexPageIntroBox {
-    display: flex;
+    background-image: url(Pictures/illustration.svg);
+    background-repeat: no-repeat;
+    padding-bottom: 190px;
+    background-position: top 0px right 0px;
 }
 
 .indexPageIntroHeader {
@@ -122,12 +124,6 @@ p {
     text-align: center;
     letter-spacing: 0.05em;
     color: #000000;
-}
-
-
-.indexPageIntro h1 {
-    font-size: 64px;
-    color: #1F3F68;
 }
 
 .companyGoals {
@@ -220,7 +216,7 @@ p {
     text-align: center;
     letter-spacing: 0.05em;
     color: #000000;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 .companyAchievmentsText {
@@ -236,10 +232,6 @@ p {
 
 .blockOfPhotosAndAchievments {
     margin-bottom: 112px;
-}
-
-.appPhotosBox {
-    flex-grow: 1;
 }
 
 .smartHomePhotoBox {
@@ -263,6 +255,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-grow: 1;
 }
 
 .appPhotoBox {
@@ -284,7 +277,7 @@ p {
 .pageEnd {
     background: #316099;
     padding-top: 91px;
-    
+
 }
 
 .footerPromotionAndButtonBox {
@@ -563,4 +556,307 @@ p {
 
 .companyOnMap {
     margin-bottom: 112px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 100vw;
+        padding: 28px 32px 0;
+    }
+
+    .indexPageIntroBox {
+        background-position: right 0px bottom 107px;
+        background-size: 336px 292px;
+    }
+
+    .menuNavigMainPage {
+        padding: 0;
+    }
+
+    .indexPageMainInfoHeader {
+        width: 704px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .companyGoals {
+        flex-direction: column;
+        margin: 0 auto;
+        margin-bottom: 95px;
+    }
+
+    .companyGoal {
+        margin-bottom: 32px;
+        padding: 40px 29px;
+    }
+
+    .companyAchievmentsText {
+        width: 520px;
+        margin: 0 auto
+    }
+
+    .smartHomePhoto {
+        width: 100%;
+    }
+
+    .appPhotosBox {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .appPhotos {
+        width: calc(50vw - 48px);
+    }
+
+    .appPhotoText {
+        top: 19px;
+        left: 19px;
+    }
+
+    .pageEnd {
+        padding-top: 63px;
+    }
+
+    .promotionHeader {
+        padding-left: 92px;
+        padding-right: 92px;
+        width: 336px;
+    }
+
+    .promotionText {
+        padding-left: 92px;
+        padding-right: 92px;
+        width: 336px;
+    }
+
+    .LestTalkButton {
+        top: 126px;
+        right: 90px;
+    }
+
+    .LestTalkLink {
+        padding: 3px 32px;
+        display: block;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        width: fit-content;
+    }
+
+    .contactInfo {
+        padding: 0 124px 0;
+    }
+
+    .contactInfoList {
+        display: block;
+    }
+
+    .contactInfoItem {
+        width: 455px;
+        padding-bottom: 25px;
+        padding-left: 36px;
+    }
+
+    .license {
+        margin-top: 39px;
+    }
+    .license{
+        padding-bottom: 64px;
+    }
+
+}
+
+@media(max-width: 730px) {
+    .indexPageIntroBox {
+        background-image: none;
+    }
+
+    .indexPageIntroHeader {
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .indexPageIntroText {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .container {
+        padding: 16px 16px 0;
+    }
+
+    .menuNavigMainPage {
+        padding: 0;
+    }
+
+    .indexPageIntroButtonBox {
+        margin: 0 auto;
+        padding: 8px 13px;
+        font-size: 12px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .indexPageMainInfo {
+        margin-top: 48px;
+        padding: 0;
+    }
+
+    .indexPageIntroBox {
+        padding-bottom: 41px;
+    }
+
+    .indexPageMainInfoPreview {
+        margin-bottom: 0px;
+    }
+
+    .indexPageMainInfoHeader {
+        font-size: 24px;
+        line-height: 28px;
+        padding-bottom: 32px;
+        width: 100vw;
+    }
+
+    .companyGoals {
+        width: (100vw - 19px);
+        padding: 0 20px 0;
+        margin-bottom: 24px;
+        vertical-align: center;
+        padding: 0;
+    }
+
+    .companyAchievments {
+        margin-bottom: 0px;
+    }
+
+    .companyAchievmentsHeader {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .companyAchievmentsText {
+        width: calc(100vw - 17px);
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        padding-bottom: 82px;
+    }
+
+    .blockOfPhotosAndAchievments {
+        margin-bottom: 0;
+        padding-bottom: 32px;
+    }
+
+
+    .smartHomePhotoBox {
+        margin-bottom: 16px;
+    }
+
+    .smartHomePhoto {
+        width: 100%;
+    }
+
+    .smartHomePhotoDescription {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        right: 16px;
+    }
+
+    .appPhotosBox {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .appPhotoBox {
+        margin-bottom: 16px;
+    }
+
+    .appPhotos {
+        width: 100%;
+    }
+
+    .appPhotoText {
+        font-size: 16px;
+        line-height: 19px;
+        top: 26px;
+        left: 16px;
+    }
+
+    .pageEnd {
+        padding-top: 18px;
+    }
+    .footerPromotionAndButtonBox{
+        padding-bottom: 41px;
+    }
+
+    .promotionHeader {
+        padding: 0 0px 32px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 28px;
+        margin: 0 auto;
+    }
+
+    .promotionText {
+        margin: 0 auto;
+        padding: 0 0px 40px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .LestTalkButton {
+        position: static;
+    }
+
+    .LestTalkLink {
+        padding: 3px 20px;
+        margin: 0 auto;
+    }
+    .contactInfoItem{
+        padding-left: 23px;
+        width: 304px;
+    }
+    .license{
+        padding-bottom: 32px;
+    }
+    .licenseText{
+        text-align: center;
+    }
+}
+@media(min-width: 590px) and (max-width: 730px){
+    .appPhotos{
+        padding-top: 1vw;
+        padding-bottom: 6.5vw;
+    }
+    .appPhotos{ 
+        margin-bottom: 6vw;
+    }
+}
+
+@media(max-width: 360px){
+    .companyGoals{
+        padding: 20px;
+    }
+    .companyGoal{
+        width: calc(100vw - 10px);
+    }
+    .promotionHeader{
+        width: calc(100vw - 30px);
+    }
+    .promotionText{
+        width: calc(100vw - 30px);
+    }
+    .companyGoalHeader{
+        width: calc(100vw - 16px);
+    }
+    .companyGoalParagraphBox{
+        width: calc(100vw - 16px);
+    }
+
 }
