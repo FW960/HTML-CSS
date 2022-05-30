@@ -253,9 +253,15 @@ p {
 .appPhotosBox {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     flex-grow: 1;
+}
+.smartHomePhoto{
+    width: 100%;
+}
+
+.appPhotos{
+    width: 100%;
 }
 
 .appPhotoBox {
@@ -661,13 +667,17 @@ p {
     .license {
         margin-top: 39px;
     }
-    .license{
+
+    .license {
         padding-bottom: 64px;
     }
 
 }
 
-@media(max-width: 730px) {
+@media(max-width: 740px) {
+    .menuNavigMainPage{
+        margin-bottom: 28px;
+    }
     .indexPageIntroBox {
         background-image: none;
     }
@@ -777,7 +787,7 @@ p {
     }
 
     .appPhotos {
-        width: 100%;
+        width: calc(100vw - 32px);
     }
 
     .appPhotoText {
@@ -790,7 +800,8 @@ p {
     .pageEnd {
         padding-top: 18px;
     }
-    .footerPromotionAndButtonBox{
+
+    .footerPromotionAndButtonBox {
         padding-bottom: 41px;
     }
 
@@ -818,45 +829,60 @@ p {
         padding: 3px 20px;
         margin: 0 auto;
     }
-    .contactInfoItem{
+
+    .contactInfoItem {
         padding-left: 23px;
         width: 304px;
     }
-    .license{
+
+    .license {
         padding-bottom: 32px;
     }
-    .licenseText{
+
+    .licenseText {
         text-align: center;
     }
 }
-@media(min-width: 590px) and (max-width: 730px){
-    .appPhotos{
-        padding-top: 1vw;
-        padding-bottom: 6.5vw;
-    }
-    .appPhotos{ 
-        margin-bottom: 6vw;
-    }
-}
 
-@media(max-width: 360px){
-    .companyGoals{
+
+@media(max-width: 362px) {
+    .companyGoals {
         padding: 20px;
     }
-    .companyGoal{
+
+    .companyGoal {
         width: calc(100vw - 10px);
     }
-    .promotionHeader{
+
+    .promotionHeader {
         width: calc(100vw - 30px);
     }
-    .promotionText{
+
+    .promotionText {
         width: calc(100vw - 30px);
     }
-    .companyGoalHeader{
-        width: calc(100vw - 16px);
+
+    .companyGoalHeader {
+        width: calc(100vw - 60px);
     }
-    .companyGoalParagraphBox{
-        width: calc(100vw - 16px);
+
+    .companyGoalParagraphBox {
+        width: calc(100vw - 60px);
+    }
+
+    .goalPhoto1 {
+        margin: 0 auto 56px;
+    }
+
+    .goalPhoto2 {
+        margin: 0 auto 56px;
+    }
+
+    .goalPhoto3 {
+        margin: 0 auto 56px;
+    }
+    .contactInfoItem{
+        width: calc(100vw - 25vw);
     }
 
 }
