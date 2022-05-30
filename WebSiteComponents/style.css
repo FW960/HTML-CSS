@@ -1,888 +1,1020 @@
 * {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .wholePage {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .contactsPageContainer {
-    margin: 0 auto;
-    width: 480px;
-    width: 940px;
+  margin: 0 auto;
+  width: 480px;
+  width: 940px;
 }
 
 .container {
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .containerContPage {
-    width: 940px;
-    margin: 0 auto;
+  width: 940px;
+  margin: 0 auto;
 }
 
 p {
-    font-size: 16px;
-    line-height: 26px;
-    color: #1F3F68
+  font-size: 16px;
+  line-height: 26px;
+  color: #1F3F68
 }
 
 .menuNavigMainPage {
-    padding-top: 34px;
-    margin-bottom: 112px;
+  padding-top: 34px;
+  margin: 0px 113px 112px;
 }
 
 .menuNavigContPage {
-    padding-top: 34px;
-    margin-bottom: 54px;
+  padding-top: 34px;
+  margin: 0 113px 54px;
 }
 
 
 .menuItems {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
 }
 
 .indexPageStart {
-    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+  background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 
 .indexPageIntroBox {
-    background-image: url(Pictures/illustration.svg);
-    background-repeat: no-repeat;
-    padding-bottom: 190px;
-    background-position: top 0px right 0px;
+  background-image: url(Pictures/illustration.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 190px;
+  background-position: top 0px right 0px;
 }
 
 .indexPageIntroHeader {
-    width: 504px;
-    font-weight: 300;
-    font-size: 64px;
-    line-height: 74px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    padding-bottom: 32px;
+  width: 504px;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  padding-bottom: 32px;
 }
 
 .indexPageIntroText {
-    width: 425px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #1F3F68;
-    opacity: 0.6;
-    margin-bottom: 71px;
+  width: 425px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  margin-bottom: 71px;
 }
 
 .indexPageIntroButtonBox {
-    width: fit-content;
-    background: #5A98D0;
-    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
-    border-radius: 10px;
-    padding: 15px 50px;
+  width: fit-content;
+  background: #5A98D0;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  padding: 15px 50px;
 }
 
 .indexPageIntroButton {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    text-decoration: none;
-    color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .indexPageIntroImageBox {
-    margin-left: 82px;
-    align-self: flex-end;
-    margin-bottom: 60px;
+  margin-left: 82px;
+  align-self: flex-end;
+  margin-bottom: 60px;
 }
 
 .indexPageMainInfo {
-    margin-top: 64px;
+  margin-top: 64px;
 }
 
 .indexPageMainInfoHeader {
-    width: 1137px;
-    text-align: center;
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 46px;
-    letter-spacing: 0.05em;
-    color: #000000;
+  max-width: 1137px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #000000;
 }
 
 .indexPageMainInfoPreview {
-    margin-bottom: 64px;
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 46px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: #000000;
+  margin-bottom: 64px;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
 }
 
 .companyGoals {
-    display: flex;
-    flex-flow: row;
-    text-align: start;
-    box-sizing: border-box;
-    justify-content: space-between;
-    margin-bottom: 64px;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-flow: row;
+  text-align: start;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-bottom: 64px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .companyGoal {
-    display: flex;
-    flex-direction: column;
-    background: #FFFFFF;
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
-    padding: 44px 32px;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  padding: 44px 32px;
+  box-sizing: border-box;
 }
 
 .companyGoalHeader {
-    width: 283px;
-    margin-bottom: 15px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    color: #1F3F68;
+  width: 283px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
 }
 
 .companyGoalParagraphBox {
-    width: 294px;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #1F3F68;
-    opacity: 0.6;
-    margin-bottom: 28px;
+  width: 294px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  margin-bottom: 28px;
 }
 
 .goalPhoto1 {
-    margin-left: 38px;
-    margin-bottom: 51px;
+  margin-left: 38px;
+  margin-bottom: 51px;
 }
 
 .goalPhoto2 {
-    margin-left: 84px;
-    margin-bottom: 44px;
+  margin-left: 84px;
+  margin-bottom: 44px;
 }
 
 .goalPhoto3 {
-    padding-top: 4px;
-    margin-left: 62px;
-    margin-bottom: 48px;
+  padding-top: 4px;
+  margin-left: 62px;
+  margin-bottom: 48px;
 }
 
 .companyGoalLinkBox {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .companyGoalLink {
-    display: flex;
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-    color: #5A98D0;
-    text-decoration: none;
-    padding-right: 23px;
-    text-align: center;
+  display: flex;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5A98D0;
+  text-decoration: none;
+  padding-right: 23px;
+  text-align: center;
 }
 
 .vectorArrow {
-    display: block;
-    margin-left: 24px;
+  display: block;
+  margin-left: 24px;
 
 }
 
 .companyAchievments {
-    text-align: center;
-    margin-bottom: 64px;
+  text-align: center;
+  margin-bottom: 64px;
 }
 
 .companyAchievmentsHeader {
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 46px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: #000000;
-    padding-bottom: 32px;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  padding-bottom: 32px;
 }
 
 .companyAchievmentsText {
-    margin-left: 195px;
-    text-align: center;
-    width: 750px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #222222;
+  text-align: center;
+  width: 750px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #222222;
+  margin: 0 auto;
 }
 
 .blockOfPhotosAndAchievments {
-    margin-bottom: 112px;
+  margin-bottom: 112px;
 }
 
 .smartHomePhotoBox {
-    position: relative;
-    margin-bottom: 32px;
+  position: relative;
+  margin-bottom: 32px;
 }
 
 .smartHomePhotoDescription {
-    display: inline-block;
-    position: absolute;
-    font-size: 32px;
-    line-height: 46px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    top: 64px;
-    right: 64px;
+  display: inline-block;
+  position: absolute;
+  font-size: 32px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  top: 64px;
+  right: 64px;
 }
 
 .appPhotosBox {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-grow: 1;
-}
-.smartHomePhoto{
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
-.appPhotos{
-    width: 100%;
+.smartHomePhoto {
+  width: 100%;
+}
+
+.appPhotos {
+  width: 100%;
 }
 
 .appPhotoBox {
-    position: relative;
+  position: relative;
 }
 
 .appPhotoText {
-    position: absolute;
-    top: 32px;
-    left: 32px;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 46px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
 
 }
 
 .pageEnd {
-    background: #316099;
-    padding-top: 91px;
+  background: #316099;
+  padding-top: 91px;
 
 }
 
 .footerPromotionAndButtonBox {
-    position: relative;
+  position: relative;
 }
 
 .promotionHeader {
-    text-align: left;
-    padding-bottom: 32px;
-    width: 340px;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 46px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
+  text-align: left;
+  padding-bottom: 32px;
+  width: 340px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
 
 }
 
 .promotionText {
 
-    width: 495px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    opacity: 0.6;
-    padding-bottom: 96px;
+  width: 495px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.6;
+  padding-bottom: 96px;
 
 }
 
 .LestTalkLink {
-    background-color: #5A98D0;
-    padding: 15px 80px;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
+  background-color: #5A98D0;
+  padding: 15px 80px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
 }
 
 .LestTalkButton {
-    position: absolute;
-    top: 74px;
-    right: 0px;
+  position: absolute;
+  top: 74px;
+  right: 0px;
+
 }
 
 .contactInfo {
-    margin-top: 64px;
+  margin-top: 64px;
 }
 
 .contactInfoList {
-    display: flex;
+  display: flex;
 }
 
 .contactInfoItem {
-    list-style-position: outside;
-    width: 316px;
-    text-align: left;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    padding-left: 19px;
-    margin-left: 19px;
-    margin-right: 74px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
+  list-style-position: outside;
+  width: 316px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-left: 19px;
+  margin-left: 19px;
+  margin-right: 74px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
 }
 
 .license {
-    margin-top: 64px;
-    padding-bottom: 64px;
+  margin-top: 64px;
+  padding-bottom: 64px;
 }
 
 .licenseText {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    opacity: 0.4;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.4;
 }
 
 .contPageIntro {
-    margin: 0 auto 57px;
-    width: 1366px;
-    height: 250px;
-    font-weight: 500;
-    font-size: 34px;
-    background-image: url(Pictures/Mask\ Group5.svg);
+  max-width: 1366px;
+  width: 100vw;
+  margin: 0 auto 57px;
+  height: 250px;
+  font-weight: 500;
+  font-size: 34px;
+  background-image: url(Pictures/Mask\ Group5.svg);
 }
 
 .contPageIntroHeader {
-    padding-top: 51px;
-    font-size: 44px;
-    line-height: 74px;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
+  padding-top: 51px;
+  font-size: 44px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
 }
 
 
 
 .contPageIntroText {
-    padding-top: 16px;
-    margin: 0 auto;
-    width: 780px;
-    display: block;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: rgba(255, 255, 255, 0.6);
+  padding-top: 16px;
+  margin: 0 auto;
+  width: 780px;
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .contactsInfoImg {
-    margin-bottom: 56px;
+  margin-bottom: 56px;
 }
 
 .contactsInfoHeader {
-    padding-bottom: 24px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    text-transform: uppercase;
+  padding-bottom: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  text-transform: uppercase;
 }
 
 .contactsInfoText {
-    padding-bottom: 40px;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    opacity: 0.6;
-    width: 299px;
+  padding-bottom: 40px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.6;
+  width: 299px;
 }
 
-.phoneNumberList li {
-    margin-bottom: 16px;
+.phoneNumberItemBox:first-child {
+  margin-bottom: 16px;
 }
 
 .phoneNumberList {
-    list-style: inside;
+  list-style: inside;
 }
 
 .phoneNumberItem {
-    text-align: center;
-    display: flex;
+  text-align: center;
+  display: flex;
 }
 
 .phoneIcon {
-    padding-right: 19px;
+  padding-right: 19px;
 }
 
 .onlineService {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
-.onlineServicesList li {
-    margin-bottom: 16px;
+.onlineServicesItemBox:first-child {
+  margin-bottom: 16px;
 }
 
 .onlineServicesItem {
-    text-align: center;
-    display: flex;
+  text-align: center;
+  display: flex;
 }
 
 .onlineServicesItem li {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .onlineServIcon {
-    padding-right: 19px;
+  padding-right: 19px;
 }
 
 .toContactLink {
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #1F3F68;
-}
-
-
-.inputToContact {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    opacity: 0.4;
-    border: 1px solid #356EAD;
-    box-sizing: border-box;
-    border-radius: 10px;
-    outline: none;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
 }
 
 .contPageInfo {
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 96px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 96px;
+}
+
+.contactsInfo {
+  align-self: center;
 }
 
 .contactsInfo li {
-    list-style-type: none;
-    list-style-position: inside;
+  list-style-type: none;
+  list-style-position: inside;
 }
 
-
 .messageSend {
-    background: #FFFFFF;
-    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
-
+  background: #FFFFFF;
+  box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  width: 540px;
+  padding: 56px;
+  box-sizing: border-box;
 }
 
 .messageSendHeader {
-    margin: 56px 0px 48px 56px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    text-transform: uppercase;
+  margin-bottom: 48px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  text-transform: uppercase;
 }
 
 .inputTypeParam {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    opacity: 0.8;
-    padding-left: 56px;
-    padding-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.8;
 }
 
 .inputToContact {
-    width: 428px;
-    height: 72px;
-    margin: 0 56px 32px;
+  margin-top: 8px;
+  width: 428px;
+  height: 72px;
+  margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.2;
+  padding-left: 40px;
+  box-sizing: border-box;
+  opacity: 0.4;
+  border: 1px solid #356EAD;
+  border-radius: 10px;
 }
 
 .textAreaMessage {
-    margin: 8px 56px 0;
-    width: 428px;
-    height: 144px;
-    opacity: 0.4;
-    border: 1px solid #356EAD;
-    border-radius: 10px;
-    resize: none;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    opacity: 0.2;
-    padding: 21px 36px;
-    box-sizing: border-box;
+  margin-bottom: 72px;
+  width: 428px;
+  height: 144px;
+  border: 1px solid #356EAD;
+  border-radius: 10px;
+  resize: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  padding: 21px 36px;
+  opacity: 0.4;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 
 .sendMessToServ {
-    width: 428px;
-    height: 72px;
-    margin: 0 56px 56px;
-    background: #5A98D0;
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
-    border: 0px;
+  width: 428px;
+  height: 72px;
+  background: #5A98D0;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  border: 0px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
 }
 
 .companyOnMap {
-    margin-bottom: 112px;
+  margin-bottom: 112px;
+}
+
+.map {
+  width: 100%;
 }
 
 @media (max-width: 1024px) {
-    .container {
-        max-width: 100vw;
-        padding: 28px 32px 0;
-    }
+  .container {
+    max-width: 100vw;
+    padding: 28px 32px 0;
+  }
 
-    .indexPageIntroBox {
-        background-position: right 0px bottom 107px;
-        background-size: 336px 292px;
-    }
+  .indexPageIntroBox {
+    background-position: right 0px bottom 107px;
+    background-size: 336px 292px;
+  }
 
-    .menuNavigMainPage {
-        padding: 0;
-    }
+  .menuNavigMainPage {
+    padding: 0;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
 
-    .indexPageMainInfoHeader {
-        width: 704px;
-        text-align: center;
-        margin: 0 auto;
-    }
+  .indexPageMainInfoHeader {
+    width: 704px;
+    text-align: center;
+    margin: 0 auto;
+  }
 
-    .companyGoals {
-        flex-direction: column;
-        margin: 0 auto;
-        margin-bottom: 95px;
-    }
+  .companyGoals {
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 95px;
+  }
 
-    .companyGoal {
-        margin-bottom: 32px;
-        padding: 40px 29px;
-    }
+  .companyGoal {
+    margin-bottom: 32px;
+    padding: 40px 29px;
+  }
 
-    .companyAchievmentsText {
-        width: 520px;
-        margin: 0 auto
-    }
+  .companyAchievmentsText {
+    width: 520px;
+    margin: 0 auto
+  }
 
-    .smartHomePhoto {
-        width: 100%;
-    }
+  .smartHomePhoto {
+    width: 100%;
+  }
 
-    .appPhotosBox {
-        display: flex;
-        flex-direction: row;
-    }
+  .appPhotos {
+    width: calc(50vw - 48px);
+  }
 
-    .appPhotos {
-        width: calc(50vw - 48px);
-    }
+  .appPhotoText {
+    top: 19px;
+    left: 19px;
+  }
 
-    .appPhotoText {
-        top: 19px;
-        left: 19px;
-    }
+  .pageEnd {
+    padding-top: 63px;
+  }
 
-    .pageEnd {
-        padding-top: 63px;
-    }
+  .promotionHeader {
+    padding-left: 92px;
+    padding-right: 92px;
+    width: 336px;
+  }
 
-    .promotionHeader {
-        padding-left: 92px;
-        padding-right: 92px;
-        width: 336px;
-    }
+  .promotionText {
+    padding-left: 92px;
+    padding-right: 92px;
+    width: 336px;
+  }
 
-    .promotionText {
-        padding-left: 92px;
-        padding-right: 92px;
-        width: 336px;
-    }
+  .LestTalkButton {
+    top: 126px;
+    right: 90px;
+  }
 
-    .LestTalkButton {
-        top: 126px;
-        right: 90px;
-    }
+  .LestTalkLink {
+    padding: 3px 32px;
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    width: fit-content;
+  }
 
-    .LestTalkLink {
-        padding: 3px 32px;
-        display: block;
-        font-size: 16px;
-        line-height: 26px;
-        text-align: center;
-        letter-spacing: 0.04em;
-        width: fit-content;
-    }
+  .contactInfo {
+    padding: 0 124px 0;
+  }
 
-    .contactInfo {
-        padding: 0 124px 0;
-    }
+  .contactInfoList {
+    display: block;
+  }
 
-    .contactInfoList {
-        display: block;
-    }
+  .contactInfoItem {
+    width: 455px;
+    padding-bottom: 25px;
+    padding-left: 36px;
+  }
 
-    .contactInfoItem {
-        width: 455px;
-        padding-bottom: 25px;
-        padding-left: 36px;
-    }
+  .license {
+    margin-top: 39px;
+  }
 
-    .license {
-        margin-top: 39px;
-    }
+  .license {
+    padding-bottom: 64px;
+  }
 
-    .license {
-        padding-bottom: 64px;
-    }
+  .menuNavigContPage {
+    margin: 0 32px 54px;
+    padding: 0;
+  }
+
+  .contPageIntro {
+    margin-bottom: 64px;
+    width: 100vw;
+  }
+
+  .contPageIntroHeader {
+    width: 520px;
+    margin: 0 auto;
+    background-position-x: center;
+  }
+
+  .contPageIntroText {
+    width: 520px;
+    margin: 0 auto;
+  }
+
+  .contPageInfo {
+    flex-direction: column;
+  }
+
+  .contactsInfo {
+    margin: 0 auto;
+    margin-bottom: 64px;
+  }
+
+  .contactsPageContainer {
+    width: 100vw;
+  }
+
+  .messageSend {
+    padding: 54px;
+    margin: 0 auto;
+  }
+
+  .messageSendHeader {
+    width: 178px;
+  }
+
+  .companyOnMap {
+    margin-bottom: 64px;
+  }
+
 
 }
 
 @media(max-width: 740px) {
-    .menuNavigMainPage{
-        margin-bottom: 28px;
-    }
-    .indexPageIntroBox {
-        background-image: none;
-    }
+  .menuNavigMainPage {
+    margin-bottom: 28px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 0;
+  }
 
-    .indexPageIntroHeader {
-        font-size: 32px;
-        line-height: 38px;
-        text-align: center;
-        width: 100%;
-    }
+  .indexPageIntroBox {
+    background-image: none;
+  }
 
-    .indexPageIntroText {
-        text-align: center;
-        width: 100%;
-        margin-bottom: 32px;
-    }
+  .indexPageIntroHeader {
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    width: 100%;
+  }
 
-    .container {
-        padding: 16px 16px 0;
-    }
+  .indexPageIntroText {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 32px;
+  }
 
-    .menuNavigMainPage {
-        padding: 0;
-    }
+  .container {
+    padding: 16px 16px 0;
+  }
 
-    .indexPageIntroButtonBox {
-        margin: 0 auto;
-        padding: 8px 13px;
-        font-size: 12px;
-        line-height: 26px;
-        text-align: center;
-    }
+  .indexPageIntroButtonBox {
+    margin: 0 auto;
+    padding: 8px 13px;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: center;
+  }
 
-    .indexPageMainInfo {
-        margin-top: 48px;
-        padding: 0;
-    }
+  .indexPageMainInfo {
+    margin-top: 48px;
+    padding: 0;
+  }
 
-    .indexPageIntroBox {
-        padding-bottom: 41px;
-    }
+  .indexPageIntroBox {
+    padding-bottom: 41px;
+  }
 
-    .indexPageMainInfoPreview {
-        margin-bottom: 0px;
-    }
+  .indexPageMainInfoPreview {
+    margin-bottom: 0px;
+  }
 
-    .indexPageMainInfoHeader {
-        font-size: 24px;
-        line-height: 28px;
-        padding-bottom: 32px;
-        width: 100vw;
-    }
+  .indexPageMainInfoHeader {
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 32px;
+    width: 100vw;
+  }
 
-    .companyGoals {
-        width: (100vw - 19px);
-        padding: 0 20px 0;
-        margin-bottom: 24px;
-        vertical-align: center;
-        padding: 0;
-    }
+  .companyGoals {
+    width: (100vw - 19px);
+    padding: 0 20px 0;
+    margin-bottom: 24px;
+    vertical-align: center;
+    padding: 0;
+  }
 
-    .companyAchievments {
-        margin-bottom: 0px;
-    }
+  .companyAchievments {
+    margin-bottom: 0px;
+  }
 
-    .companyAchievmentsHeader {
-        font-size: 24px;
-        line-height: 28px;
-    }
+  .companyAchievmentsHeader {
+    font-size: 24px;
+    line-height: 28px;
+  }
 
-    .companyAchievmentsText {
-        width: calc(100vw - 17px);
-        font-size: 16px;
-        line-height: 26px;
-        text-align: center;
-        padding-bottom: 82px;
-    }
+  .companyAchievmentsText {
+    width: calc(100vw - 17px);
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    padding-bottom: 82px;
+  }
 
-    .blockOfPhotosAndAchievments {
-        margin-bottom: 0;
-        padding-bottom: 32px;
-    }
+  .blockOfPhotosAndAchievments {
+    margin-bottom: 0;
+    padding-bottom: 32px;
+  }
 
 
-    .smartHomePhotoBox {
-        margin-bottom: 16px;
-    }
+  .smartHomePhotoBox {
+    margin-bottom: 16px;
+  }
 
-    .smartHomePhoto {
-        width: 100%;
-    }
+  .smartHomePhoto {
+    width: 100%;
+  }
 
-    .smartHomePhotoDescription {
-        font-size: 16px;
-        line-height: 19px;
-        top: 16px;
-        right: 16px;
-    }
+  .smartHomePhotoDescription {
+    font-size: 16px;
+    line-height: 19px;
+    top: 16px;
+    right: 16px;
+  }
 
-    .appPhotosBox {
-        flex-direction: column;
-        justify-content: space-around;
-    }
+  .appPhotosBox {
+    flex-direction: column;
+    justify-content: space-around;
+  }
 
-    .appPhotoBox {
-        margin-bottom: 16px;
-    }
+  .appPhotoBox {
+    margin-bottom: 16px;
+  }
 
-    .appPhotos {
-        width: calc(100vw - 32px);
-    }
+  .appPhotos {
+    width: calc(100vw - 32px);
+  }
 
-    .appPhotoText {
-        font-size: 16px;
-        line-height: 19px;
-        top: 26px;
-        left: 16px;
-    }
+  .appPhotoText {
+    font-size: 16px;
+    line-height: 19px;
+    top: 26px;
+    left: 16px;
+  }
 
-    .pageEnd {
-        padding-top: 18px;
-    }
+  .pageEnd {
+    padding-top: 18px;
+  }
 
-    .footerPromotionAndButtonBox {
-        padding-bottom: 41px;
-    }
+  .footerPromotionAndButtonBox {
+    padding-bottom: 41px;
+  }
 
-    .promotionHeader {
-        padding: 0 0px 32px;
-        text-align: center;
-        font-size: 24px;
-        line-height: 28px;
-        margin: 0 auto;
-    }
+  .promotionHeader {
+    padding: 0 0px 32px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 auto;
+  }
 
-    .promotionText {
-        margin: 0 auto;
-        padding: 0 0px 40px;
-        text-align: center;
-        font-size: 16px;
-        line-height: 26px;
-    }
+  .promotionText {
+    margin: 0 auto;
+    padding: 0 0px 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+  }
 
-    .LestTalkButton {
-        position: static;
-    }
+  .LestTalkButton {
+    position: static;
+  }
 
-    .LestTalkLink {
-        padding: 3px 20px;
-        margin: 0 auto;
-    }
+  .LestTalkLink {
+    padding: 3px 20px;
+    margin: 0 auto;
+  }
 
-    .contactInfoItem {
-        padding-left: 23px;
-        width: 304px;
-    }
+  .contactInfoItem {
+    padding-left: 23px;
+    width: 304px;
+  }
 
-    .license {
-        padding-bottom: 32px;
-    }
+  .license {
+    padding-bottom: 32px;
+  }
 
-    .licenseText {
-        text-align: center;
-    }
+  .licenseText {
+    text-align: center;
+  }
+
+  .menuNavigContPage {
+    margin: 0 16px 32px;
+  }
+
+  .contPageIntroHeader {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    width: 163px;
+  }
+
+  .contPageIntroText {
+    width: 341px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .contPageInfo {
+    margin: 0 auto;
+  }
+
+  .messageSend {
+    max-width: 342px;
+    width: 342px;
+    padding: 36px;
+    margin-bottom: 32px;
+  }
+
+  .inputToContact {
+    max-width: 271px;
+    width: 271px;
+    padding: 13px 23px;
+    font-size: 14px;
+  }
+
+  .textAreaMessage {
+    max-width: 271px;
+    width: 271px;
+    padding: 13px 23px;
+  }
+
+  .sendMessToServ {
+    max-width: 271px;
+    width: 271px;
+    height: 46px;
+  }
+  .companyOnMap{
+    margin-bottom: 32px;
+  }
 }
 
 
 @media(max-width: 362px) {
-    .companyGoals {
-        padding: 20px;
-    }
+  .companyGoals {
+    padding: 20px;
+  }
 
-    .companyGoal {
-        width: calc(100vw - 10px);
-    }
+  .companyGoal {
+    width: calc(100vw - 10px);
+  }
 
-    .promotionHeader {
-        width: calc(100vw - 30px);
-    }
+  .promotionHeader {
+    width: calc(100vw - 30px);
+  }
 
-    .promotionText {
-        width: calc(100vw - 30px);
-    }
+  .promotionText {
+    width: calc(100vw - 30px);
+  }
 
-    .companyGoalHeader {
-        width: calc(100vw - 60px);
-    }
+  .companyGoalHeader {
+    width: calc(100vw - 60px);
+  }
 
-    .companyGoalParagraphBox {
-        width: calc(100vw - 60px);
-    }
+  .companyGoalParagraphBox {
+    width: calc(100vw - 60px);
+  }
 
-    .goalPhoto1 {
-        margin: 0 auto 56px;
-    }
+  .goalPhoto1 {
+    margin: 0 auto 56px;
+  }
 
-    .goalPhoto2 {
-        margin: 0 auto 56px;
-    }
+  .goalPhoto2 {
+    margin: 0 auto 56px;
+  }
 
-    .goalPhoto3 {
-        margin: 0 auto 56px;
-    }
-    .contactInfoItem{
-        width: calc(100vw - 25vw);
-    }
+  .goalPhoto3 {
+    margin: 0 auto 56px;
+  }
 
+  .contactInfoItem {
+    width: calc(100vw - 25vw);
+  }
+  .messageSend{
+    padding: calc(8vw);
+    width: calc(100vw - 20px);
+  }
+  .contPageIntroText{
+    width: calc(100vw - 20px);
+  }
+  .inputToContact{
+    width: calc(100vw - 70px);
+  }
+  .textAreaMessage{
+    width: calc(100vw - 70px);
+  }
+  .sendMessToServ{
+    width: calc(100vw - 70px);
+  }
+}
+@media (max-width: 1143px) and (min-width: 1025px){
+.appPhotos{
+  width: calc(50vw - 16px);
+}
+.companyGoal{
+  width: calc(33vw - 16px);
+}
 }

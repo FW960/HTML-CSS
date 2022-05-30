@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
         <meta charset="UTF-8">
@@ -10,14 +10,20 @@
 </head>
 
 <body class="wholePage">
-        <header class="contPageStart container">
-                <div class="menuNavigContPage">
-                        <ul class="menuItems">
-                                <li><a class="menuLink" href="index.html"><img src="Pictures/Navigation.svg" alt="logo"></a>
-                                </li>
-                                <li><a class="contacstLink" href="contacts.html"><img src="Pictures/address-book-solid1.svg" alt="contacts"></a></li>
-                        </ul>
+        <header class="contPageStart">
+                <div class="container">
+                        <div class="menuNavigContPage">
+                                <ul class="menuItems">
+                                        <li><a class="menuLink" href="index.html"><img src="Pictures/Navigation.svg"
+                                                                alt="logo"></a>
+                                        </li>
+                                        <li><a class="contacstLink" href="contacts.html"><img
+                                                                src="Pictures/address-book-solid1.svg"
+                                                                alt="contacts"></a></li>
+                                </ul>
+                        </div>
                 </div>
+
         </header>
         <div class="contPageIntro">
                 <h2 class="contPageIntroHeader">Contact Us</h2>
@@ -34,13 +40,13 @@
                                 pharetra.</p>
                         <h4 class="contactsInfoHeader">Phone</h4>
                         <ul class="phoneNumberList">
-                                <li>
+                                <li class="phoneNumberItemBox">
                                         <div class="phoneNumberItem"><img class="phoneIcon"
                                                         src="Pictures/ic_phone_24px.svg" alt="">
                                                 <p class="phoneNum">+7-812-7313-4321</p>
                                         </div>
                                 </li>
-                                <li>
+                                <li class="phoneNumberItemBox">
                                         <div class="phoneNumberItem"><img class="phoneIcon"
                                                         src="Pictures/ic_phone_24px.svg" alt="">
                                                 <p class="phoneNum">+7-817-0000-1234</p>
@@ -50,13 +56,13 @@
                         <h4 class="contactsInfoHeader onlineService">Online Service</h4>
                         <ul class="onlineServicesList">
 
-                                <li>
+                                <li class="onlineServicesItemBox">
                                         <div class="onlineServicesItem"><img src="Pictures/ic_language_24px.svg"
-                                                        alt="icon" class="onlineServIcon"><a href="#" mail
+                                                        alt="icon" class="onlineServIcon"><a href="#"
                                                         class="toContactLink">www.site.com</a></div>
                                 </li>
 
-                                <li>
+                                <li class="onlineServicesItemBox">
                                         <div class="onlineServicesItem"><img src="Pictures/ic_email_24px.svg"
                                                         alt="email" class="onlineServIcon"><a
                                                         href="mailto:hello.site@gmail.com"
@@ -67,26 +73,23 @@
                 <div class="messageSend">
                         <h4 class="messageSendHeader">Send&nbsp;us message</h4>
                         <form class="messageForm" action="#">
-                                <label>
-                                        <p class="inputTypeParam"> Full Name</p><input class="inputToContact"
-                                                type="text">
+                                <label class="inputTypeParam">
+                                        Full Name<input class="inputToContact" placeholder="Your Name" type="text">
                                 </label> <br>
-                                <label>
-                                        <p class="inputTypeParam">Email</p><input class="inputToContact" type="email">
+                                <label class="inputTypeParam">
+                                        Email<input class="inputToContact" placeholder="Your Email" type="email">
                                 </label> <br>
-                                <label>
-                                        <p class="inputTypeParam">Message</p><textarea class="textAreaMessage"
+                                <label class="inputTypeParam">
+                                        Message<textarea class="textAreaMessage"
                                                 placeholder="Lorem ipsum dolor sit amet." cols="30" rows="5"></textarea>
                                 </label>
-                                <br>
-                                <br>
                                 <button class="sendMessToServ" type="submit">Sumbit</button>
                         </form>
                 </div>
         </div>
         <div class="companyOnMap contactsPageContainer">
-                <script class="map" type="text/javascript" charset="utf-8" async
-                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A62462d99f6218d5bda949e09ca4f3ec07626bb1b135af5983293ee1fcfba7ccf&amp;width=940&amp;height=480&amp;lang=ru_RU&amp;scroll=true"></script>
+                <script id="map" async
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A62462d99f6218d5bda949e09ca4f3ec07626bb1b135af5983293ee1fcfba7ccf&amp;height=480&amp;lang=ru_RU&amp;scroll=true"></script>
         </div>
 
         <footer class="pageEnd">
@@ -118,8 +121,6 @@
                                 <p class="licenseText">2022 All rights reserved.</p>
                         </div>
                 </div>
-                </div>
-
 
         </footer>
 
