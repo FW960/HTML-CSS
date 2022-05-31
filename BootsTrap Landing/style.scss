@@ -1,0 +1,142 @@
+$backGroundColor: #500675;
+$pageSizingPC: 1360px;
+$pageSizingTablet: calc(100vw - 50px);
+$verticalPageJustifying: 0 auto;
+$BDblack: 3.5px solid #000;
+$BDRadius: 0.3rem;
+
+
+body {
+    background-color: $backGroundColor;
+
+    .wrapper {
+        width: $pageSizingPC;
+        margin: 0 auto;
+
+        .jumbotron {
+            margin-bottom: 0px;
+            border: $BDblack;
+            border-top: 0;
+            background-color: #3510eb;
+            padding: 32px;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+        }
+
+        main {
+            margin: $verticalPageJustifying;
+
+            .carouselBox {
+                margin: 80px 0;
+                border: $BDblack;
+                border-left: 0;
+                border-right: 0;
+                border-radius: $BDRadius;
+                background-color: #000;
+            }
+        }
+
+        footer {
+            border: $BDblack;
+            background-color: #3218b8;
+            text-align: center;
+            border-bottom: 0;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            border-radius: $BDRadius;
+
+            .promotion {
+                padding: 32px 0 16px;
+            }
+
+            .form-control {
+                width: $pageSizingPC/3;
+                margin: 0 auto;
+                resize: none;
+                border: 2px solid #000;
+                border-radius: $BDRadius;
+                background-image: url(Pictures/abstract-background-purple-dark-nebula-with-bright-stars-dark-matter-cosmos-3d-rendering_360032-1227.jpg);
+            }
+
+            .btn {
+                color: #212529;
+                font-weight: 500;
+                line-height: 1.2;
+                border: 2px solid #000;
+                background-color: #3510eb;
+            }
+
+            hr {
+                opacity: 0.5;
+                color: #000;
+                border: 1px solid #000;
+                background-color: #000;
+            }
+
+            .licenceBox {
+                text-align: left;
+                padding: 8px 0 8px 32px;
+            }
+        }
+    }
+}
+
+@media(max-width: 1024px) {
+    body {
+        .wrapper {
+            width: $pageSizingTablet;
+
+            .jumbotron {
+                padding: 12px;
+
+                .display-4 {
+                    font-size: 1.7rem;
+                }
+
+                .lead {
+                    font-size: 1rem;
+                }
+            }
+            main{
+                .carouselBox{
+                    margin: 40px 0;
+                }
+            }
+            
+
+            footer {
+                .promotion {
+                    padding: 6px 0 0 0;
+                    margin-bottom: 4px;
+                    font-size: 1.7rem;
+                }
+
+                .exampleFormControlTextarea1 {
+                    font-size: 0.5rem;
+                }
+
+                .form-control {
+                    width: 300px;
+                    height: 60px;
+                }
+
+                .btn {
+                    font-size: 0.7rem;
+                }
+
+                hr {
+                    margin: 8px 0;
+                }
+
+                .licenceBox {
+                    font-size: 0.7rem;
+                    padding: 0 0 4px 12px;
+                }
+            }
+        }
+    }
+
+
+
+
+}

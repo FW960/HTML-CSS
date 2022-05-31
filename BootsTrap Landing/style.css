@@ -1,0 +1,115 @@
+body {
+  background-color: #500675;
+}
+
+body .wrapper {
+  width: 1360px;
+  margin: 0 auto;
+}
+
+body .wrapper .jumbotron {
+  margin-bottom: 0px;
+  border: 3.5px solid #000;
+  border-top: 0;
+  background-color: #3510eb;
+  padding: 32px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+body .wrapper main {
+  margin: 0 auto;
+}
+
+body .wrapper main .carouselBox {
+  margin: 80px 0;
+  border: 3.5px solid #000;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0.3rem;
+  background-color: #000;
+}
+
+body .wrapper footer {
+  border: 3.5px solid #000;
+  background-color: #3218b8;
+  text-align: center;
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-radius: 0.3rem;
+}
+
+body .wrapper footer .promotion {
+  padding: 32px 0 16px;
+}
+
+body .wrapper footer .form-control {
+  width: 453.33333px;
+  margin: 0 auto;
+  resize: none;
+  border: 2px solid #000;
+  border-radius: 0.3rem;
+  background-image: url(Pictures/abstract-background-purple-dark-nebula-with-bright-stars-dark-matter-cosmos-3d-rendering_360032-1227.jpg);
+}
+
+body .wrapper footer .btn {
+  color: #212529;
+  font-weight: 500;
+  line-height: 1.2;
+  border: 2px solid #000;
+  background-color: #3510eb;
+}
+
+body .wrapper footer hr {
+  opacity: 0.5;
+  color: #000;
+  border: 1px solid #000;
+  background-color: #000;
+}
+
+body .wrapper footer .licenceBox {
+  text-align: left;
+  padding: 8px 0 8px 32px;
+}
+
+@media (max-width: 1024px) {
+  body .wrapper {
+    width: calc(100vw - 50px);
+  }
+  body .wrapper .jumbotron {
+    padding: 12px;
+  }
+  body .wrapper .jumbotron .display-4 {
+    font-size: 1.7rem;
+  }
+  body .wrapper .jumbotron .lead {
+    font-size: 1rem;
+  }
+  body .wrapper main .carouselBox {
+    margin: 40px 0;
+  }
+  body .wrapper footer .promotion {
+    padding: 6px 0 0 0;
+    margin-bottom: 4px;
+    font-size: 1.7rem;
+  }
+  body .wrapper footer .exampleFormControlTextarea1 {
+    font-size: 0.5rem;
+  }
+  body .wrapper footer .form-control {
+    width: 300px;
+    height: 60px;
+  }
+  body .wrapper footer .btn {
+    font-size: 0.7rem;
+  }
+  body .wrapper footer hr {
+    margin: 8px 0;
+  }
+  body .wrapper footer .licenceBox {
+    font-size: 0.7rem;
+    padding: 0 0 4px 12px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
